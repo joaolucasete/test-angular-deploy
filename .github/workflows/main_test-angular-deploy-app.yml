@@ -39,7 +39,7 @@ jobs:
         with:
           app-name: 'test-angular-deploy-app'
           # slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C08ED516D6154A669EEC46AA341378C1 }}
+          publish-profile: $
           package: ./dist/test-angular-deploy
   # deploy:
   #   runs-on: ubuntu-latest
